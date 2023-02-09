@@ -1,10 +1,32 @@
+*{
+  font-family: 'lato';
+  font-weight: 900;
+  
+}
+
+.navbar-height{
+  height: 130px;
+}
+
 .bg-navbar-dark {
   background-color: #192f58;
+}
+
+.img-fluid{
+  max-width: 70% !important;
 }
 .dropdown-menu {
   background-color: #192f58 !important;
   border: none !important;
   border-radius: 0 !important;
+}
+
+.custom-font{
+  font-family: "le-monde-livre-classic-byol, sherif";
+}
+
+.carousel-h1{
+  color: #192f58;
 }
 
 .carousel-btn {
@@ -25,36 +47,42 @@
 }
 
 .carousel-item .carousel-box {
-  min-height: 100vh;
+  min-height: calc(100vh - 130px);
   background-position: center;
-  background-size: cover;
 }
 
 .carousel-indicators button {
-  border: 1px solid black !important;
+  border: 2px solid #192F58 !important;
   height: 10px !important;
   width: 10px !important;
   border-radius: 100%;
 }
 .carousel-indicators button:focus{
-  color: black !important;
-  background-color: black !important;
+  color: #192F58 !important;
+  background-color: #192F58 !important;
   
 }
 
+.arrow-icon {
+  color: #192F58;
+}
 .carousel-control-next {
-  width: 20px !important;
+  width: 50px !important;
+  color: #192F58;
+  border: 2px solid #192F58 !important;
   top: auto !important;
-  bottom: 70px !important;
+  bottom: 30px !important;
   left: auto !important;
   right: 65px !important;
 }
 
 
 .carousel-control-prev {
-  width: 20px !important;
+  width: 50px !important;
+  border: 2px solid #192F58 !important;
+  color: #192F58;
   top: auto !important;
-  bottom: 70px !important;
+  bottom: 30px !important;
   left: auto !important;
   right: 113px !important;
 }
@@ -62,7 +90,7 @@
 /* indicators position change */
 .carousel-indicators{
   margin-left: 48px !important;
-  margin-bottom: 85px !important;
+  margin-bottom: 35px !important;
   right: 0px  !important;
 }
 
