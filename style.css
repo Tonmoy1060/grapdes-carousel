@@ -3,15 +3,12 @@
   font-weight: 900;
   
 }
-
 .navbar-height{
   height: 130px;
 }
-
 .bg-navbar-dark {
   background-color: #192f58;
 }
-
 .img-fluid{
   max-width: 70% !important;
 }
@@ -20,16 +17,12 @@
   border: none !important;
   border-radius: 0 !important;
 }
-
 .custom-font{
   font-family: "le-monde-livre-classic-byol, sherif";
 }
-
-
 .carousel-h1{
   color: #192f58;
 }
-
 .carousel-btn {
   background-color: #2976bc !important;
   color: white !important;
@@ -46,6 +39,7 @@
   margin-left: 0.4em;
   margin-right: 0.4em;
 }
+
 
 .carousel-item .carousel-box {
   min-height: calc(100vh - 130px);
@@ -126,4 +120,19 @@
     left: 0 !important;
     right: 0 !important;
   }
+}
+
+.success-section{
+  background-color: #F3F3F3;
+}
+.custom-width-vertical{
+  width: 25px;
+  color: black;
+  opacity: 50;
+}
+
+.success-number{
+  color: #2976bc;
+  font-size: 4rem;
+  font-weight: 400;
 }
