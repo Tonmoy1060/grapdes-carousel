@@ -25,6 +25,7 @@
   font-family: "le-monde-livre-classic-byol, sherif";
 }
 
+
 .carousel-h1{
   color: #192f58;
 }
@@ -53,15 +54,16 @@
 
 .carousel-indicators button {
   border: 2px solid #192F58 !important;
+  background-color: #192F58 !important;
   height: 10px !important;
   width: 10px !important;
   border-radius: 100%;
 }
-.carousel-indicators button:focus{
+/* .carousel-indicators button:focus{
   color: #192F58 !important;
   background-color: #192F58 !important;
   
-}
+} */
 
 .arrow-icon {
   color: #192F58;
@@ -107,7 +109,7 @@
       top: auto !important;
       bottom: 10px !important;
       left: auto !important;
-      right: 77px !important;
+      right: 83px !important;
     }
     
     .carousel-indicators{
@@ -116,3 +118,12 @@
       right: 0px  !important;
     }
  }
+
+ @media (max-width: 991px) {
+  .navbar-collapse {
+    position: absolute !important;
+    top: 120px !important; /* height of navbar */
+    left: 0 !important;
+    right: 0 !important;
+  }
+}
