@@ -91,23 +91,23 @@
 }
 
 /* carousel button and indicator responsive */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 992px) {
    .carousel-control-next {
       top: auto !important;
-      bottom: 10px !important;
+      bottom: 17px !important;
       left: auto !important;
-      right: 35px !important;
+      right: 15px !important;
     }
     .carousel-control-prev {
    
       top: auto !important;
-      bottom: 10px !important;
+      bottom: 17px !important;
       left: auto !important;
-      right: 83px !important;
+      right: 63px !important;
     }
     
     .carousel-indicators{
-      margin-left: 18px !important;
+      margin-left: 13px !important;
       margin-bottom: 35px !important;
       right: 0px  !important;
     }
@@ -134,5 +134,61 @@
 .success-number{
   color: #2976bc;
   font-size: 4rem;
+  font-weight: 400;
+}
+.about-btn{
+  background-color: #192F58 !important;
+  color: white !important;
+  border-radius: 0 !important   ;
+  padding: 18px !important   ;
+}
+
+/* about */
+.custom-hight{
+  max-height: 250px !important;
+  max-width: 80% !important;
+}
+.slick-prev:before{
+  color: black !important;
+  background-color: white !important;
+right: 155px !important;
+}
+.slick-next:before{
+  color: black !important;
+  background-color: white !important;
+  right: 55px !important;
+
+}
+
+.custom-prev::before,
+.custom-next::before {
+  font-size: 60px;
+  color: black !important;
+}
+
+.slick-prev, .slick-next {
+  display: block !important;
+}
+
+.custom-prev {
+  left: 10px;
+}
+
+.custom-next {
+  right: 10px;
+}
+
+
+/* our practice section */
+.our-practice{
+  background-color: #192F58;
+}
+.our-practice h3{
+  color: #FFFFFF;
+}
+.practice-p{
+  color: #FFFFFF;
+  font-family: "le-monde-livre-classic-byol, sherif";
+  font-size: 1.5em;
   font-weight: 400;
 }
