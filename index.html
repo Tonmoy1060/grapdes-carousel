@@ -342,7 +342,7 @@
         </div>
       </section>
       <!-- about section -->
-      <section class="p-lg-5 p-3">
+      <section class="p-lg-5 p-3 position-relative">
         <!-- oul carousel -->
         <div class="row responsive p-5 mb-lg-4">
           <div class="card col-lg-6 border-0 d-flex justify-content-center">
@@ -373,7 +373,9 @@
               alt="..."
             />
           </div>
-          <div class="card col-lg-6 border-0 d-flex justify-content-center text-center">
+          <div
+            class="card col-lg-6 border-0 d-flex justify-content-center text-center"
+          >
             <img
               src="/assets/about/World-Tax---Recommended-Firm-2021 1.png"
               class="img-fluid custom-hight w-50 ms-5 ps-3"
@@ -381,6 +383,10 @@
             />
           </div>
         </div>
+
+        <div class="prev"><i class="fa fa-chevron-left"></i></div>
+
+        <div class="next"><i class="fa fa-chevron-right"></i></div>
 
         <!-- owl-carousel end -->
 
@@ -397,7 +403,7 @@
           <div class="pe-lg-5 pb-lg-5 me-lg-3">
             <div class="d-flex align-items-center p-4">
               <img class="img-fluid" src="/assets/practice/hand.png" alt="" />
-              <p class="practice-p px-lg-5 ps-3 ">
+              <p class="practice-p px-lg-5 ps-3">
                 Litigation & Alternative Dispute Resolution
               </p>
             </div>
@@ -447,7 +453,7 @@
       <section>
         <div
           class="card bg-dark text-white border-0 rounded-0 position-relative h-100 our-people"
-          style="background-image: url('/assets/people.png') ;"
+          style="background-image: url('/assets/people.png')"
         >
           <!-- <img src="/assets/people.png" class="card-img rounded-0" alt="..." /> -->
           <div class="card-overlay"></div>
@@ -472,12 +478,14 @@
 
         <div class="py-5 d-lg-flex align-items-center justify-content-between">
           <div>
-            <div class="d-flex justify-content-between align-items-center  p-lg-3 p-1 ps-lg-0 ps-0">
+            <div
+              class="d-flex justify-content-between align-items-center p-lg-3 p-1 ps-lg-0 ps-0"
+            >
               <img class="img-latest" src="/assets/cort.png" alt="" />
               <div class="ps-3">
                 <div class="d-flex align-items-center justify-content-between">
-                  <p class="custom-font"> 26 September 2022</p>
-                  <hr class="custom-width-vertical  px-5" />
+                  <p class="custom-font">26 September 2022</p>
+                  <hr class="custom-width-vertical px-5" />
                 </div>
                 <p class="latest-p fw-normal">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem
@@ -485,12 +493,14 @@
                 </p>
               </div>
             </div>
-            <div class="d-flex justify-content-between align-items-center  p-lg-3 p-1 ps-lg-0 ps-0">
+            <div
+              class="d-flex justify-content-between align-items-center p-lg-3 p-1 ps-lg-0 ps-0"
+            >
               <img class="img-latest" src="/assets/cort.png" alt="" />
               <div class="ps-3">
                 <div class="d-flex align-items-center justify-content-between">
-                  <p class="custom-font"> 26 September 2022</p>
-                  <hr class="custom-width-vertical  px-5 " />
+                  <p class="custom-font">26 September 2022</p>
+                  <hr class="custom-width-vertical px-5" />
                 </div>
                 <p class="latest-p fw-normal">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem
@@ -500,11 +510,13 @@
             </div>
           </div>
           <div>
-            <div class="d-flex justify-content-between align-items-center  p-lg-3 p-1 ps-lg-0 ps-0">
+            <div
+              class="d-flex justify-content-between align-items-center p-lg-3 p-1 ps-lg-0 ps-0"
+            >
               <img class="img-latest" src="/assets/cort.png" alt="" />
               <div class="ps-3">
                 <div class="d-flex align-items-center justify-content-between">
-                  <p class="custom-font"> 26 September 2022</p>
+                  <p class="custom-font">26 September 2022</p>
                   <hr class="custom-width-vertical px-5" />
                 </div>
                 <p class="latest-p fw-normal">
@@ -513,11 +525,13 @@
                 </p>
               </div>
             </div>
-            <div class="d-flex justify-content-between align-items-center p-lg-3 p-1 ps-lg-0 ps-0">
+            <div
+              class="d-flex justify-content-between align-items-center p-lg-3 p-1 ps-lg-0 ps-0"
+            >
               <img class="img-latest" src="/assets/cort.png" alt="" />
               <div class="ps-3">
                 <div class="d-flex align-items-center justify-content-between">
-                  <p class="custom-font"> 26 September 2022</p>
+                  <p class="custom-font">26 September 2022</p>
                   <hr class="custom-width-vertical px-5" />
                 </div>
                 <p class="latest-p fw-normal">
@@ -556,9 +570,9 @@
         infinite: true,
         speed: 300,
         slidesToShow: 4,
+        prevArrow: $(".prev"),
+        nextArrow: $(".next"),
         slidesToScroll: 1,
-        prevArrow: ".custom-prev",
-        nextArrow: ".custom-next",
         responsive: [
           {
             breakpoint: 1024,

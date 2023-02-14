@@ -118,34 +118,27 @@
   max-height: 250px !important;
   max-width: 80% !important;
 }
-.slick-prev:before{
-  color: black !important;
-  background-color: white !important;
-right: 155px !important;
-}
-.slick-next:before{
-  color: black !important;
-  background-color: white !important;
-  right: 55px !important;
 
-}
 
-.custom-prev::before,
-.custom-next::before {
+.next::before,
+.prev::before {
   font-size: 60px;
   color: black !important;
 }
 
-.slick-prev, .slick-next {
-  display: block !important;
+.next{
+  position: absolute;
+  top: 30%;
+  font-size: 33px;
+  right: 30px;
+  cursor: pointer;
 }
-
-.custom-prev {
-  left: 10px;
-}
-
-.custom-next {
-  right: 10px;
+.prev{
+  position: absolute;
+  font-size: 33px;
+  top: 30%;
+  left: 30px;
+  cursor: pointer;
 }
 
 
