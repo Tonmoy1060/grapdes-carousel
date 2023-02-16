@@ -251,6 +251,7 @@
 .text-underline:hover{
   text-decoration: underline;
   cursor: pointer;
+  color: #2976bc;
 }
 
 
