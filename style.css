@@ -132,6 +132,10 @@
   max-width: 40% !important;
 }
 
+.owl-carousel{
+  min-height: 300px;
+}
+
 .next::before,
 .prev::before {
   font-size: 60px;
@@ -160,6 +164,9 @@
 }
 .our-practice h3{
   color: #FFFFFF;
+}
+.hover-bg{
+  height: 120PX;
 }
 .hover-bg:hover{
   background-color: #072541;
@@ -217,6 +224,12 @@
   width: 35%;
 }
 
+.latest-hover:hover .latest-p{
+  text-decoration: underline;
+  color: #2976bc;
+  cursor: pointer;
+}
+
 /* footer */
 .footer-section{
   background-color: #F3F3F3;
@@ -246,6 +259,7 @@
 .footer-bottom{
   background-color: #192F58;
   color: white;
+  font-size: 12px;
 }
 
 .text-underline:hover{
@@ -278,7 +292,8 @@
    }
    .our-people{
      min-height: calc(100vh - 45vh) !important;
-     background-position: cover !important;
+     background-size: cover;
+     background-position: center !important;
    }
    .img-latest{
     width: 100%;
