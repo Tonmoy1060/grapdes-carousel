@@ -208,7 +208,8 @@
 
 .our-people{
   min-height: calc(100vh - 15vh) !important;
-  background-position: cover !important;
+  background-size: cover !important;
+  background-position: center !important;
 }
 
 .vertical-line{
@@ -291,9 +292,10 @@
      right: 0px  !important;
    }
    .our-people{
+    width: 100% !important;
      min-height: calc(100vh - 45vh) !important;
-     background-size: cover;
      background-position: center !important;
+     background-size: cover !important;
    }
    .img-latest{
     width: 100%;
